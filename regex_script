@@ -1,0 +1,8 @@
+import re
+
+pattern = "\d+" #regex 
+user_input = input() # the user input
+if(re.search(pattern, user_input)): #match the regex with the user input
+    print("valid") #if there's a match
+else:
+    print("invalid") #if there's no match
